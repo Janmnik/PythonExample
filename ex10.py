@@ -1,6 +1,6 @@
 #Co to było? sekwencja ucieczki #!Wróć do zadania!
 tabby_cat = "\tJestem tabulatorem."
-#utworzenie zmiennych jako ciąg tekstu \n wyświtlenie w nowej lini
+#utworzenie zmiennych jako ciąg tekstu \n wyświetlenie w nowej lini
 persian_cat = "Jestem podziałem \n lini."
 backslash_cat = "Jestem sobie \\ jakimś \\ kotem."
 

@@ -1,5 +1,5 @@
 #Zadawanie pytań
-#wyświetlenie zapytania, orz nie przejście do nowej lini, a pozostanie 
+#wyświetlenie zapytania, oraz nie przejście do nowej lini, a pozostanie 
 print("Ile masz lat?", end=' ')
 age = input()
 print("Ile masz wzrostu?", end=' ')

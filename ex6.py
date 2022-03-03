@@ -13,13 +13,13 @@ y = f"Ci, którzy znają system {binary} i ci, którzy go {do_not}."
 print(x)
 #drukuj y na ekran konsoli
 print(y)
-# wydrukowanie w konsoli Stringa z zagniżdżonym stringiem(z ciągiem znaków)
+# wydrukowanie w konsoli Stringa z zagnieżdżonym stringiem(z ciągiem znaków)
 print(f"Powiedziałem: {x}")
 print(f"Powiedziałem również: '{y}'")
 #Przypisanie zmiennej hilarious wartość boolowską (logiczną)false
 hilarious = False
 joke_evaluation = "Czy to nie jest przezabawny dowcip?! {}"
-#.format() pozwala wyświtlić zmienne w ciągu znaków
+#.format() pozwala wyświetlić zmienne w ciągu znaków
 print(joke_evaluation.format(hilarious))
 
 w = "To jest lewa strona..."

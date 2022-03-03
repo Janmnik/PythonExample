@@ -16,7 +16,7 @@ print("Ile to jest 3.1+2.2?",3.1+2.2)
 print("Ile to jest 5-7",5-7)
 #wyświetlenie tekstu
 print("Oj, to dlatego to daje False.")
-#wyświtlenie tekstu
+#wyświetlenie tekstu
 print("Poćwiczmy jeszcze trochę.")
 #wyświetlenie tekstu i porównanania liczb
 print("Czy to jest większe?", 5>-2)
