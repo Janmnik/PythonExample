@@ -10,10 +10,13 @@ def main(language_file, encoding, errors):
         return main(language_file, encoding, errors)
 
 def print_line(line, encoding, errors):
+    #usunięcie spacji
     next_lang = line.strip()
+    #enkodowanie
     raw_bytes = next_lang.encode(encoding, errors=errors)
+    #dekadowanie
     cooked_string = raw_bytes.decode(encoding, errors=errors)
-
+    
     print(raw_bytes, "<====>", cooked_string)
 
 languages = open("languages.txt", encoding="utf-8")
