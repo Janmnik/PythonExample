@@ -1,4 +1,6 @@
 #Funkcje mogą coś zwracać
+import time
+start_time = time.time()
 
 def add(a, b):
     print(f"Dodawanie {a} + {b}")
@@ -10,11 +12,34 @@ def subtract(a, b):
 
 def multiply(a, b):
     print(f"Mnożenie {a} * {b}")
+    #print(time.time()-start_time)
     return a * b
+
+def multiplyA(a, b):
+    print(f"Mnożenie {a} * {b}")
+    result=0
+    for x in range(0,b):
+        result+=a
+    #print(time.time()-start_time)
+    return result
 
 def divide(a, b):
     print(f"Dzielenie {a} / {b}")
     return a / b
+def divideA(a, b):
+    print(f"Dzielenie {a} / {b}")
+    result = a
+    i=0
+    if a>b:
+        while result!=0:
+            #a = a-b
+            result= result-b
+            #print(f"r: {result}")
+            i +=1
+    else:
+        return str(a)+"/"+str(b)
+    return i
+
 def expenentiationS(a, b):
     print(f"Potęgowanie {a} ^ {b}")
     return a**b
@@ -27,6 +52,21 @@ def expenentiation(a, b):
         print(f"a: {c}")
     return c
 
+def expenentiationA(a, b):
+    print(f"Potęgowanie {a} ^ {b}")
+    c=a
+    for x in range(0,b-1):
+        c = multiplyA(c,a)
+        print(f"a: {c}")
+    return c
+'''
+print(multiply(40,20))
+print("------------")
+print(multiplyA(40,20))
+print(divideA(4,2))
+print(divideA(2,4))
+
+'''
 print("Wykonajmy kilka operacji aretmetycznych")
 
 age = add(30, 5)
