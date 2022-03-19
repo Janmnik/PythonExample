@@ -23,7 +23,7 @@ def sort_sentence(sentence):
     words = break_words(words)
     print_first_words(words)
     print_last_word(words)
-def print_firs_and_last_sorted(sentence):
+def print_first_and_last_sorted(sentence):
     """ Sortuje słowa, a następnie drukuje pierwsze i ostatnie."""
     words = sort_sentence(sentence)
     print_first_word(words)
