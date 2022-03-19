@@ -1,5 +1,5 @@
+#Exam
 from sys import argv
-
 
 print("Ile masz lat?", end=' ')
 age = input()
