@@ -38,5 +38,21 @@ elif door == "2":
     else:
         print("Z szaleństwa gniją Ci oczy i zamieniają się w kałużę błota.")
         print("Dobra robota!")
+elif door == "3":
+    print("Spotykasz dużego robota Clanka.")
+    print("Co robisz?")
+    print("1. Patrzysz sie na niego.")
+    print("2. Próbujesz go zniszczyć.")
+    robot = input("> ")
+    if robot == "1":
+        print("Zostaje z Ciebie ciasto truskawkowe.")
+        print("Dobra robota!")
+    elif robot == "2" or robot == "3":
+        print("Wyszedłeś cało, robot zwariował patrząc się na Ciebie.")
+        print("Dobra robota!")
+    else:
+        print("Wypalasz się!")
+        print("Dobra robota!")
+
 else:
     print("Potykasz się, nadziewasz się na nóż i umierasz. Dobra robota!")
