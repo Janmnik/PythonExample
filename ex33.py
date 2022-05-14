@@ -13,6 +13,9 @@ def AddToList2(quantity):
     for i in range(quantity):
         numbers.append(i)
 
+def printNumbers(numbers):
+    for num in numbers:
+        print(num)
 
 while i < 6:
     print(f"Na górze i ma wartość {i}")
@@ -22,3 +25,5 @@ while i < 6:
     print("Aktualne liczby: ", numbers)
     print(f"Na dole i ma wartość {i}")
 print(AddToList(6))
+print("----")
+printNumbers(numbers)
