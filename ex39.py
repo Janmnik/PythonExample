@@ -58,3 +58,28 @@ state = states.get('Texas')
 #Pobieramy miasto za pomocą domyślnej wartości
 city = cities.get('TX', 'Nie istnieje')
 print(f"Miasto dla stanu 'TX' to: {city}")
+
+#Directory and directory Poland
+
+Wojewodztwa = {
+  'Pomorskie': 'POM',
+  'Mazowieckie': 'MAZO',
+  'Podlaskie': 'POD',
+  'Mazurskie': 'MAZU',
+  'Lodzkie': 'LOD'
+}
+
+Miasta = {
+  'POM': 'Gdańsk',
+  'POM': 'Gdynia',
+  'POM': 'Sopot',
+  'LOD': 'Lodz',
+  'ZACHPOM': 'Szczecin'
+}
+print('-'*10)
+for state, abbrev in list(Wojewodztwa.items()):
+  print(f"Wojewodztwo {state} ma skrot {abbrev} ")
+print("Wojewodztwo Podlaskie ma skrót ", Wojewodztwa['Podlaskie'])
+
+miejscowosc = Miasta.get('POM', 'Nie istnieje')
+print(miejscowosc)
