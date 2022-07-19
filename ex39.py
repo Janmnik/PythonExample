@@ -59,7 +59,7 @@ state = states.get('Texas')
 city = cities.get('TX', 'Nie istnieje')
 print(f"Miasto dla stanu 'TX' to: {city}")
 
-#Directory and directory Poland
+#Directory and dictionary Poland
 
 Wojewodztwa = {
   'Pomorskie': 'POM',
