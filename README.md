@@ -44,4 +44,6 @@ ex39.py  | dictionary
 ex40.py  | Example
 ex40a.py  | Example
 mystuff.py  | Example
-zrobić push
+ex41.py  | Example
+ex42.py  | Example
+ex43.py  | Classes
